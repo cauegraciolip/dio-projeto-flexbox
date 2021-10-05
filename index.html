@@ -27,7 +27,7 @@
     <!-- ===== PRINCIPAL CONTENT -->
 
     <section class="content-section">
-        <div>
+        <div class="name">
             <h1>Flex <br>Turismos</h1>
             <p>O melhor serviço para você!</p>
             <a href="">Saiba Mais!</a>
@@ -43,19 +43,20 @@
             <img src="./images/1-quem-somos.png" alt="balcão de atendimento">
         </div>
 
-        <div>
+        <div class="about">
             <h2>Quem somos</h2>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
             <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
         </div>
     </section>
 
-    <section class="content-section">
-        <div>
+<!-- ==== SERVIÇOS ==== -->
+    <section class="content-section block">
+        <div class="services-title">
             <h2>Serviços</h2>
         </div>
 
-        <main>
+        <main id="main-services">
             <div>
                 <div><img src="./images/icon-2.png" alt="hospedagens"></div>
                 <p>Hospedagens</p>
@@ -75,12 +76,18 @@
             </div>
 
         </main>
+    </section>
+
+<!-- ===== PLANOS ===== -->
+
+    <div class="titulo-planos">
+        <h2>Planos</h2>
     </div>
 
-    <div>
-
-        <div>
-            <h3>Plano 2</h3>
+    <div id="lista-planos">
+        <div class="planos plano1">
+            <h3>Plano 1</h3>
+            <hr>
             <ul>
                 <li>Suporte 24h</li>
                 <li>Serviços de quarto</li>
@@ -89,8 +96,9 @@
             <a href="#">Saiba Mais!</a>
         </div>
 
-        <div>
+        <div class="planos planoDois">
             <h3>Plano 2</h3>
+            <hr>
             <ul>
                 <li>Suporte 24h</li>
                 <li>Serviços de quarto</li>
@@ -101,8 +109,9 @@
             <a href="#">Saiba Mais!</a>
         </div>
 
-        <div>
+        <div class="planos plano3">
             <h3>Plano 3</h3>
+            <hr>
             <ul>
                 <li>Suporte 24h</li>
                 <li>Serviços de quarto</li>
@@ -115,7 +124,7 @@
         </div>
     </div>
 
-    <footer>
+    <footer id="footer">
         <p>&copy; 2021 CSS Flexbox</p>
         <p>Desenvolvido por: Graci_Codes</p>
     </footer>

@@ -1,0 +1,272 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* ====== HEADER ====== */
+#top {
+  width: 100%;
+  background: #1b1b92;
+}
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em 1em;
+  color: #ffffff;
+}
+
+#header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#header ul li a {
+  color: #ffffff;
+  font-size: 0.9rem;
+  padding-left: 1.5em;
+}
+
+#header ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ===== PRINCIPAL CONTENT ===== */
+.content-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em 1em;
+  margin-top: 2rem;
+}
+
+.content-section h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #0d0d49;
+}
+
+.content-section p {
+  color: #080808;
+  padding: 1rem 0rem 2rem 0rem;
+}
+
+.content-section a {
+  margin-top: 2rem;
+  border-radius: 30px;
+  padding: 0.4rem 1rem;
+  background-color: #0d0d49;
+  color: #ffffff;
+}
+
+.name {
+  padding-left: 1rem;
+}
+
+.about {
+  padding: 2.5rem;
+}
+
+.about h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0d0d49;
+}
+
+.about h2::before {
+  content: "| ";
+}
+
+.about p {
+  color: #0d0d49;
+}
+
+/* ===== SERVIÇOS ===== */
+.block {
+  display: block;
+  background-color: #0d0d49;
+  width: 100%;
+  padding: 2rem 0rem 5rem 0rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#main-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#main-services div {
+  padding-top: 1rem;
+}
+
+#main-services div p {
+  color: white;
+}
+
+#main-services div a {
+  background-color: #ffffff;
+  color: #0d0d49;
+}
+
+.services-title {
+  padding: 0rem 0rem 2rem 10rem;
+}
+
+.services-title h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* ===== PLANOS ===== */
+#lista-planos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 1rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.titulo-planos {
+  width: 70%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.titulo-planos h2 {
+  color: #0d0d49;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.planos {
+  border: 3px solid #0d0d49;
+  padding: 1rem 2rem 2rem 2rem;
+  max-width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.planos h3 {
+  font-size: 1.3rem;
+  color: #0d0d49;
+  text-align: center;
+  font-weight: 700;
+}
+
+.planos hr {
+  margin: 1rem 0rem;
+}
+
+.planos a {
+  border-radius: 30px;
+  padding: 0.4rem 1rem;
+  background-color: #0d0d49;
+  color: #ffffff;
+  bottom: 0;
+  width: 110px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.planos a:hover {
+  width: 150px;
+}
+
+.planos ul {
+  padding-bottom: 1rem;
+}
+
+.planos li {
+  color: #0d0d49;
+}
+
+.planos li::before {
+  content: "> ";
+}
+
+.plano1 {
+  height: 200px;
+}
+
+.planoDois {
+  height: 300px;
+}
+
+.plano3 {
+  height: 400px;
+}
+
+#footer {
+  background-color: #0d0d49;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+/*# sourceMappingURL=main.css.map */
